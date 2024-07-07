@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: #cad2c5;
+   
+}
+.con{
+    background-color: #f2e8cf;
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    margin:70px auto;   
+    border-radius: 30px;
+}
+h1{
+    font-size:50px;
+    color: #eb5e28;
+    padding: 10px;
+}
+.inputs{
+    display: flex;
+    margin-top: 20px;
+    margin-left:100px;
+    width: 550px;
+    height:50px;
+    justify-content: space-between;
+    border: 3px solid green;
+    border-radius:25px;
+    background-color:white;
+}
+.taskbar{
+    padding:10px;
+    text-align:left;
+    font-size: 20px;
+    width:85%;
+    outline: none;
+    border: none;
+    border-radius: 22px;
+}
+button{
+    width: 25%;
+    border-radius:22px;
+    color:white;
+    background-color:coral;
+    border: none;
+    font-size:15px;
+    font-weight:600;
+}
+.taskslist{
+    text-align: left;
+    margin-top: 50px;
+    list-style: none; 
+}
+.task{
+    width:350px;
+    height:50px;
+    border: 2px solid orange;
+    background-color: #EEE5E9;
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    justify-content:space-between;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+i{
+    padding:15px;
+    font-size: 20px;
+}
+span{
+    font-size:20px;
+    margin-left: 10px;
+}
+input[type="checkbox"]{
+    margin-top: 10px;
+    margin-left: 20px;
+    width:25px;
+    height:20px;
+    accent-color:orange;
+}
